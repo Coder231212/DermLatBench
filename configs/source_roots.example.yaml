@@ -1,0 +1,25 @@
+# Copy this file to configs/source_roots.yaml and edit local paths.
+# These directories should contain images you obtained under each source's terms.
+# Do not commit configs/source_roots.yaml if it contains private paths.
+
+source_roots:
+  # SCIN: Skin Condition Image Network
+  scin_images: /absolute/path/to/local/SCIN/images
+
+  # DDI: Diverse Dermatology Images
+  ddidiversedermatologyimages: /absolute/path/to/local/DDI/images
+
+  # Skin Deep: Paediatric Dermatology Image Resource
+  skindeep_clinical_images: /absolute/path/to/local/SkinDeep/images
+
+  # MEDIQA-WV 2025 splits
+  images_train_mediqa_2025_wv: /absolute/path/to/local/MEDIQA_WV_2025/train/images
+  images_valid_mediqa_2025_wv: /absolute/path/to/local/MEDIQA_WV_2025/valid/images
+  images_test_mediqa_2025_wv: /absolute/path/to/local/MEDIQA_WV_2025/test/images
+
+  # UNM Inclusive Dermatology Atlas
+  # Internal key intentionally remains UMN_Inclusive_Dermatology for backward compatibility.
+  UMN_Inclusive_Dermatology: /absolute/path/to/local/UNM_Inclusive_Dermatology/images
+
+  # MST-E periorbital crop subset
+  images_mst_e_crop: /absolute/path/to/local/MST_E/source_or_crops

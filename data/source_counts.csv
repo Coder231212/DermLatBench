@@ -1,0 +1,9 @@
+source_dataset_clean,n_images
+scin_images,10379
+ddidiversedermatologyimages,656
+skindeep_clinical_images,542
+images_train_mediqa_2025_wv,449
+UMN_Inclusive_Dermatology,178
+images_test_mediqa_2025_wv,152
+images_valid_mediqa_2025_wv,147
+images_mst_e_crop,38

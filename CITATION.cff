@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "DermLatBench: Repurposing wound and dermatology image databases for AI laterality benchmarking"
+message: "If you use DermLatBench, please cite the associated SAWC Fall conference presentation and this repository."
+type: conference-paper
+authors:
+  - family-names: Liu
+    given-names: Avery H.
+  - family-names: Suzuki
+    given-names: Hana
+  - family-names: Suzuki
+    given-names: Sakura
+  - family-names: Liu
+    given-names: Mitchell H.
+year: 2026
+conference:
+  name: "Symposium on Advanced Wound Care (SAWC) Fall"
+  location: "Las Vegas, NV, United States"
+abstract: "Liu, A. H., Suzuki, H., Suzuki, S., & Liu, M.H.. (2026). DermLatBench: Repurposing wound and dermatology image databases for AI laterality benchmarking [Conference presentation]. Symposium on Advanced Wound Care (SAWC) Fall, Las Vegas, NV, United States."
+license: MIT

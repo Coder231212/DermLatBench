@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dermlatbench"
+version = "0.1.0"
+description = "DermLatBench metadata, provenance, and local-only image preparation utilities"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["pandas>=2.0", "pillow>=10.0", "pyyaml>=6.0", "tqdm>=4.66", "opencv-python>=4.8"]
+
+[project.optional-dependencies]
+facemesh = ["mediapipe>=0.10"]
+
+[tool.setuptools.packages.find]
+include = ["dermlatbench*"]

@@ -1,0 +1,8 @@
+source_dataset,total_images,finalized,left,right,bilateral_or_midline,unable_to_determine,pending_adjudication
+scin_images,10379,10379,2403,2305,991,4680,0
+ddidiversedermatologyimages,656,656,73,89,42,452,0
+images_train_mediqa_2025_wv,449,449,130,132,9,178,0
+UMN_Inclusive_Dermatology,178,178,62,36,55,25,0
+images_test_mediqa_2025_wv,152,152,44,44,2,62,0
+images_valid_mediqa_2025_wv,147,147,51,39,0,57,0
+images_mst_e_crop,38,38,19,19,0,0,0
