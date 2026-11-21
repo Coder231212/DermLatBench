@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Reconcile completed SkinDeep annotation review labels into metadata-only GT.
 
-Preserves earlier explicit manual corrections; does not touch image files.
+Preserves latest explicit manual corrections; does not touch image files.
 Run from repository root: python scripts/sync_skindeep_gt_review.py
 """
 from __future__ import annotations
@@ -20,7 +20,7 @@ GT_PATHS = [
 ]
 AUDIT = ROOT / "docs/skindeep_gt_annotation_reconciliation_20261120.csv"
 REPORT = ROOT / "docs/SKINDEEP_GT_RECONCILIATION_20261120.md"
-LOCKED = {"DLB_00012001": "LEFT", "DLB_00012096": "RIGHT"}
+LOCKED = {"DLB_00012001": "RIGHT", "DLB_00012096": "RIGHT"}
 ALLOWED = {"LEFT", "RIGHT", "BILATERAL_OR_MIDLINE", "UNABLE_TO_DETERMINE"}
 SOURCE = "SKINDEEP_MASK_ANNOTATION_REVIEW_20261008"
 
