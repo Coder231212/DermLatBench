@@ -1,0 +1,28 @@
+# Local image data and derived images
+local_images/
+local_outputs/
+masked_cache/
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.bmp
+*.tif
+*.tiff
+
+# Local paths
+configs/source_roots.yaml
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.DS_Store
+.vscode/
+.idea/
+*.parquet
+*.feather
+*.pt
+*.pth
+*.onnx
